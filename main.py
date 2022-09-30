@@ -24,6 +24,8 @@ player = pygame.transform.scale(player, (player.get_width()//3, player.get_heigh
 sc.blit(player, playerRect)
 pygame.display.update()
 
+print("hui")
+
 while 1:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
